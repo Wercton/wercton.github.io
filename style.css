@@ -1,0 +1,41 @@
+body {
+    background: url(./img/cosmos.jpg);
+    background-size: 100% auto;
+    backdrop-filter: invert(14%);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: RGBA(54, 17, 89, 0.5);
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(154, 194, 207);
+    transition: 1s color;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
