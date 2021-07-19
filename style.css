@@ -1,8 +1,6 @@
 body {
-    background: url(./img/cosmos.jpg);
-    background-size: 100% auto;
-    backdrop-filter: invert(14%);
-    height: 100vh;
+    background: RGBA(54, 17, 89, 1);
+    font-family: 'Montserrat', sans-serif;;
 }
 
 header {
@@ -12,8 +10,6 @@ header {
 }
 
 nav {
-    background-color: RGBA(54, 17, 89, 0.5);
-    position: fixed;
     width: 100vw;
     top: 0px;
     padding: 15px 0;
@@ -38,4 +34,33 @@ nav a {
 
 nav a:hover {
     color: #FFFFFF;
+}
+
+/* css do main */
+
+main {
+    padding: 0px 100px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    padding: 2em;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+.sobre img {
+    border: 2px solid #111111;
+    border-radius: 500px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.experiencia {
+    clear: left;
 }
