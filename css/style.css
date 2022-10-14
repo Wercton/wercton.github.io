@@ -1,0 +1,83 @@
+body {
+    background: white;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+/* header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+} */
+
+/* nav {
+    width: 100vw;
+    top: 0px;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s color;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(154, 194, 207);
+} */
+
+/* css do main */
+
+main {
+    padding: 80px 10%;
+    color: black;
+}
+
+section {
+    /* border: 5px solid gray; */
+    margin-bottom: 200px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    column-gap: 3em;
+}
+
+.intro img {
+    border-radius: 60%;
+    width: 27em;
+    padding: 20px;
+    justify-self :end;
+    
+}
+
+.intro h1{
+    margin-bottom: 20px;
+}
+
+.sobre {
+    padding: 50px 10%;
+    height: 100%;
+}
+
+.sobre h3 {
+    margin-bottom: 50px;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 18px;
+}
