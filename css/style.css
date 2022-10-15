@@ -49,16 +49,25 @@ section {
     margin-bottom: 200px;
 }
 
+i {
+    color: black;
+    font-size: 30px;
+}
+
+i:hover {
+    color: rgb(40, 40, 40);
+}
+
 .intro {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     column-gap: 3em;
 }
 
 .intro img {
     border-radius: 60%;
-    width: 27em;
+    width: 24em;
     padding: 20px;
     justify-self :end;
     
@@ -68,7 +77,7 @@ section {
     margin-bottom: 20px;
 }
 
-.sobre {
+.sobre, .content {
     padding: 50px 10%;
     height: 100%;
 }
