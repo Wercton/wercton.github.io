@@ -1,32 +1,38 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
+import SocialMedias from "./SocialMedias";
 
 const Bloco = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding-top: 15%;
-  padding-left: 15%;
+  padding-left: 25%;
+  padding-bottom: 15%;
 `;
-
-const Container = styled.div``;
 
 const Info = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; // Alinha o conteúdo à esquerda
-  align-items: flex-start; // Alinha o conteúdo à esquerda
+  justify-content: flex-start;
+  align-items: flex-start;
 `;
 
 const Title = styled.h1`
-  font-size: 3em;
-  color: #cf0000;
+  font-size: 2.5em;
+  color: #f7f7f2;
   margin-bottom: 0.5em;
+
+  &:hover {
+    color: #468189;
+    cursor: pointer;
+  }
 `;
 
 const Subtitle = styled.p`
   font-size: 1.5em;
-  color: #ccc;
+  color: #f7f7f2;
   margin-top: 0px;
   margin-bottom: 0.5em;
 `;
@@ -42,17 +48,15 @@ const MoreInfo = styled.p`
 const BlocoEsquerdo = () => {
   return (
     <Bloco>
-      <Container>
-        <Info>
-          <Title>Wercton Barbosa</Title>
-          <Subtitle>Desenvolvedor de Software</Subtitle>
-          <MoreInfo>
-            Focado na construção de sistemas de software eficientes e
-            confiáveis.
-          </MoreInfo>
-        </Info>
+      <Info>
+        <Title>Wercton Barbosa</Title>
+        <Subtitle>Desenvolvedor de Software</Subtitle>
+        <MoreInfo>
+          Focado na construção de sistemas de software eficientes e confiáveis.
+        </MoreInfo>
         <Navbar />
-      </Container>
+      </Info>
+      <SocialMedias />
     </Bloco>
   );
 };

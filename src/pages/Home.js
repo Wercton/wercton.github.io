@@ -6,7 +6,7 @@ import BlocoEsquerdo from "../components/BlocoEsquerdo";
 
 const HomeContainer = styled.div`
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -26,6 +26,7 @@ const Home = () => {
         <BlocoEsquerdo />
         <BlocoDireito>
           <Sobre />
+          <div style={{height: "10%"}}/>
           <GridCard />
         </BlocoDireito>
       </HomeContainer>

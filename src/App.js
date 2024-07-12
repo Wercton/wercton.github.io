@@ -3,12 +3,17 @@ import React, { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import styled from "styled-components";
 
+// #468189 (teal)
+// #0F2934 (gunmetal)
+// #888888 (grey)
+// #F7F7F2 (white)
+
 const Main = styled.main`
   background-color: #111;
 `;
 
 const Highlight = styled.div`
-  position: absolute;
+  ${'' /* position: absolute;
   width: 500px;
   height: 500px;
   background: radial-gradient(circle, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0) 70%);
@@ -16,7 +21,7 @@ const Highlight = styled.div`
   transform: translate(-40%, -40%);
   pointer-events: none;
   mix-blend-mode: overlay;
-  transition: transform 0.1s ease-out;
+  transition: transform 0.1s ease-out; */}
 `;
 
 function App() {

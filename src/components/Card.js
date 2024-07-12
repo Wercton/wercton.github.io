@@ -29,7 +29,7 @@ const ConteudoDireito = styled.div`
 const Titulo = styled.h2`
   font-size: 1.2em;
   margin: 0;
-  color: #cf0000;
+  color: #F7F7F2;
 `;
 
 const Descricao = styled.p`
@@ -44,11 +44,11 @@ const TagContainer = styled.div`
 `;
 
 const Tag = styled.span`
-  background-color: #cf0000;
+  background-color: #0F2934;
   color: #fff;
   font-size: 0.8em;
-  padding: 4px 8px;
-  border-radius: 4px;
+  padding: 8px;
+  border-radius: 15px;
   margin-right: 5px;
   margin-bottom: 5px;
 `;
