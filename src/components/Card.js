@@ -10,7 +10,7 @@ const CardContainer = styled.div`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #2c2c2c;
+    background-color: #202020;
   }
 `;
 
@@ -27,13 +27,13 @@ const ConteudoDireito = styled.div`
 `;
 
 const Titulo = styled.h2`
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0;
   color: #cf0000;
 `;
 
 const Descricao = styled.p`
-  font-size: 2em;
+  font-size: 1em;
   color: #888;
 `;
 
@@ -46,7 +46,7 @@ const TagContainer = styled.div`
 const Tag = styled.span`
   background-color: #cf0000;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 0.8em;
   padding: 4px 8px;
   border-radius: 4px;
   margin-right: 5px;

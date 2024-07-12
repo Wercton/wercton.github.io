@@ -2,33 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import Sobre from "./Sobre";
 import GridCard from "../components/GridCard";
+import BlocoEsquerdo from "../components/BlocoEsquerdo";
 
 const HomeContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 4fr;
   height: 100vh;
-`;
-
-const BlocoEsquerdo = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 150px;
-`;
-
-const Title = styled.h1`
-  font-size: 2em;
-  color: #cf0000;
-`;
-
-const Subtitle = styled.p`
-  font-size: 1em;
-  color: #888;
+  overflow-y: hidden;
+  overflow-x: hidden;
 `;
 
 const BlocoDireito = styled.div`
-  padding: 100px;
+  position: relative;
+  padding: 15%;
+  max-height: 100vh;
   overflow-y: auto;
 `;
 
@@ -36,10 +23,7 @@ const Home = () => {
   return (
     <>
       <HomeContainer>
-        <BlocoEsquerdo>
-          <Title>Wercton Barbosa</Title>
-          <Subtitle>Desenvolvedor Front-End | React | JavaScript</Subtitle>
-        </BlocoEsquerdo>
+        <BlocoEsquerdo />
         <BlocoDireito>
           <Sobre />
           <GridCard />

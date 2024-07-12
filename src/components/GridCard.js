@@ -4,7 +4,7 @@ import Card from "./Card";
 const GridCard = () => {
   return (
     <div>
-      {/* <Card
+      <Card
         periodo="2022 - Presente"
         titulo="SEDUC - Secretaria de Educação do Estado do Tocantins"
         descricao="Na Secretaria de Educação do Estado do Tocantins, atuo como desenvolvedor full-stack, responsável pelo desenvolvimento e manutenção de sistemas educacionais vitais para a gestão de escolas e programas educacionais. Participei ativamente na implementação de novas funcionalidades utilizando tecnologias como Java, Spring Boot, React, e Docker. Além disso, lidero iniciativas de integração de sistemas e melhoria contínua de processos tecnológicos."
@@ -40,7 +40,7 @@ const GridCard = () => {
           "Azure",
           "Desenvolvimento de Software",
         ]}
-      /> */}
+      />
     </div>
   );
 };
